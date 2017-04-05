@@ -1,0 +1,20 @@
+﻿<Window x:Class="ClientWPF.NavPasager"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientWPF"
+        mc:Ignorable="d"
+        Title="NavPasager" Height="350" Width="525" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="label" Content="Make a booking" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="181,29,0,0" FontSize="21.333" FontWeight="Bold"/>
+        <ComboBox x:Name="tracksCB" HorizontalAlignment="Left" Margin="157,99,0,0" VerticalAlignment="Top" Width="230"  DropDownOpened="tracksCB_DropDownOpened"/>
+        <ComboBox x:Name="hoursCB" HorizontalAlignment="Left" Margin="157,150,0,0" VerticalAlignment="Top" Width="120" DropDownOpened="hoursCB_DropDownOpened"/>
+        <Button x:Name="bookBT" Content="Book now!" HorizontalAlignment="Left" Margin="211,206,0,0" VerticalAlignment="Top" Width="120" Height="46" Click="bookBT_Click"/>
+        <Label x:Name="label1" Content="" HorizontalAlignment="Left" Margin="211,266,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="logoffBT" Content="Logoff" HorizontalAlignment="Left" Margin="432,289,0,0" VerticalAlignment="Top" Width="75" Click="logoffBT_Click"/>
+        <Label x:Name="label2" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="208"/>
+        <TextBox x:Name="numberTB" HorizontalAlignment="Left" Height="23" Margin="282,149,0,0" TextWrapping="Wrap" Text="No of people" VerticalAlignment="Top" Width="105" GotFocus="numberTB_GotFocus" LostFocus="numberTB_LostFocus"/>
+        <Label x:Name="label3" Content="Price : 0" HorizontalAlignment="Left" Margin="235,177,0,0" VerticalAlignment="Top" Height="24" Width="96"/>
+    </Grid>
+</Window>

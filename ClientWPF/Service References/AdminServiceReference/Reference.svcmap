@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="65ff77e7-bf6f-4194-b29c-56dc13525046" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/ServerWCF/AdminService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="41036438-16f0-41f2-b067-1aa40a6be13d" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ServerWCF/AdminService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="77abf9c7-b824-4c36-8a20-8f03418c6cb7" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ServerWCF/AdminService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="bed3ae28-852d-4b74-871a-639a3ac85f8e" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ServerWCF/AdminService/mex" />
+    <MetadataFile FileName="ServerWCF.xsd" MetadataType="Schema" ID="cb552617-a72c-45c8-8e25-3aac9cbf7964" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ServerWCF/AdminService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

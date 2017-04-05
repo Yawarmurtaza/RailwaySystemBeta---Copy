@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="49126a8df1c747d79a862e2950935717" Name="Diagram1" ZoomLevel="63" >
+        <EntityTypeShape EntityType="RailwaySystemModel.Train" Width="1.5" PointX="10.625" PointY="0.75" />
+        <EntityTypeShape EntityType="RailwaySystemModel.Station" Width="1.5" PointX="10.625" PointY="3.375" />
+        <EntityTypeShape EntityType="RailwaySystemModel.Passenger" Width="1.5" PointX="4.375" PointY="4.125" />
+        <EntityTypeShape EntityType="RailwaySystemModel.Track" Width="1.5" PointX="7.125" PointY="0.75" />
+        <EntityTypeShape EntityType="RailwaySystemModel.User" Width="1.5" PointX="3.375" PointY="0.75" />
+        <EntityTypeShape EntityType="RailwaySystemModel.Admin" Width="1.5" PointX="2" PointY="4.125" />
+        <EntityTypeShape EntityType="RailwaySystemModel.Booking" Width="1.5" PointX="7.125" PointY="4.25" />
+        <AssociationConnector Association="RailwaySystemModel.TrainTrack" />
+        <AssociationConnector Association="RailwaySystemModel.TrackStation" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="RailwaySystemModel.PassengerBooking" />
+        <InheritanceConnector EntityType="RailwaySystemModel.Admin" />
+        <InheritanceConnector EntityType="RailwaySystemModel.Passenger" />
+        <AssociationConnector Association="RailwaySystemModel.TrackBooking" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

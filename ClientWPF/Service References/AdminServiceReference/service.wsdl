@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="AdminService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/ServerWCF" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IAdminService_AddTrain_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddTrain" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_AddTrain_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddTrainResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_AddStation_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddStation" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_AddStation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddStationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_AddTrack_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddTrack" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_AddTrack_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddTrackResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_AddStationToTrack_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddStationToTrack" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_AddStationToTrack_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddStationToTrackResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_LoadStations_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadStations" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_LoadStations_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadStationsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_GetTracks_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTracks" />
+  </wsdl:message>
+  <wsdl:message name="IAdminService_GetTracks_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTracksResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IAdminService">
+    <wsdl:operation name="AddTrain">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/AddTrain" message="tns:IAdminService_AddTrain_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/AddTrainResponse" message="tns:IAdminService_AddTrain_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddStation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/AddStation" message="tns:IAdminService_AddStation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/AddStationResponse" message="tns:IAdminService_AddStation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddTrack">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/AddTrack" message="tns:IAdminService_AddTrack_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/AddTrackResponse" message="tns:IAdminService_AddTrack_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddStationToTrack">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/AddStationToTrack" message="tns:IAdminService_AddStationToTrack_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/AddStationToTrackResponse" message="tns:IAdminService_AddStationToTrack_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadStations">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/LoadStations" message="tns:IAdminService_LoadStations_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/LoadStationsResponse" message="tns:IAdminService_LoadStations_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTracks">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdminService/GetTracks" message="tns:IAdminService_GetTracks_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdminService/GetTracksResponse" message="tns:IAdminService_GetTracks_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IAdminService" type="tns:IAdminService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddTrain">
+      <soap:operation soapAction="http://tempuri.org/IAdminService/AddTrain" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddStation">
+      <soap:operation soapAction="http://tempuri.org/IAdminService/AddStation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddTrack">
+      <soap:operation soapAction="http://tempuri.org/IAdminService/AddTrack" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddStationToTrack">
+      <soap:operation soapAction="http://tempuri.org/IAdminService/AddStationToTrack" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadStations">
+      <soap:operation soapAction="http://tempuri.org/IAdminService/LoadStations" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTracks">
+      <soap:operation soapAction="http://tempuri.org/IAdminService/GetTracks" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AdminService">
+    <wsdl:port name="BasicHttpBinding_IAdminService" binding="tns:BasicHttpBinding_IAdminService">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/ServerWCF/AdminService/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

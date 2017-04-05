@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7e20ff80-3650-4ae3-b705-cce2840a3769" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/ServerWCF/PasagerService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="24e3a8b7-a08c-4e84-9bec-56a6ac1b224d" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ServerWCF/PasagerService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="a5fe868a-277a-4b49-a2dd-4d77e97c4670" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ServerWCF/PasagerService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="b89f4394-deb8-4250-a0d2-228e1da33dc8" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ServerWCF/PasagerService/mex" />
+    <MetadataFile FileName="ServerWCF.xsd" MetadataType="Schema" ID="b8af343d-c10e-4d87-b37f-c126a4ba5fb0" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ServerWCF/PasagerService/mex" />
+    <MetadataFile FileName="Arrays.xsd" MetadataType="Schema" ID="6dff45ed-da35-42f8-b389-67a0a343b12a" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ServerWCF/PasagerService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
