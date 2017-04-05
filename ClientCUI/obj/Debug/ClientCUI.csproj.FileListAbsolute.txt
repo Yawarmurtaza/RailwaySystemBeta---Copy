@@ -32,3 +32,14 @@ C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Co
 C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ClientCUI\obj\Debug\ClientCUI.csprojResolveAssemblyReference.cache
 C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ClientCUI\obj\Debug\ClientCUI.exe
 C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ClientCUI\obj\Debug\ClientCUI.pdb
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientCUI\bin\Debug\ClientCUI.exe.config
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientCUI\bin\Debug\ClientCUI.exe
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientCUI\bin\Debug\ClientCUI.pdb
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientCUI\bin\Debug\ServerWCF.dll
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientCUI\bin\Debug\EntityFramework.dll
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientCUI\bin\Debug\ServerWCF.pdb
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientCUI\bin\Debug\ServerWCF.dll.config
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientCUI\bin\Debug\EntityFramework.xml
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientCUI\obj\Debug\ClientCUI.csprojResolveAssemblyReference.cache
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientCUI\obj\Debug\ClientCUI.exe
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientCUI\obj\Debug\ClientCUI.pdb

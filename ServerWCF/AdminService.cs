@@ -97,9 +97,19 @@ namespace ServerWCF
                 // return context.Stations.ToList();
                 List<Station> allStations = new List<Station>()
                 {
-                    new Station(){City = "Karachi", StationId = 45, Tracks = new List<Track>(), Type = "Express"},
-                    new Station(){City = "London", StationId = 46, Tracks = new List<Track>(), Type = "Super_Express"},
-                    new Station(){City = "Lahore", StationId = 48, Tracks = new List<Track>(), Type = "Slow_Express"},
+                    new Station(){City = "Karachi", StationId = 45, Tracks = new List<Track>()
+                        {
+                            new Track(){Name = "Fast Track"},
+                            new Track(){Name = "Slow Track"},
+                            new Track(){Name = "Fast Track"},
+                            new Track(){Name = "My Fav Track"},
+                            new Track(){Name = "Expensive Track"}
+                        }
+                    
+                    , Type = "Express"},
+                    new Station(){City = "London", StationId = 46, Tracks = new List<Track>(){new Track(){Name = "Super Track"}, new Track() { Name = "My Fav Track" }, }
+                    , Type = "Super_Express"},
+                    new Station(){City = "Lahore", StationId = 48, Tracks = new List<Track>() {new Track(){Name = "My Fav Track"}, new Track(){Name = "My Fav Track2"}, new Track(){Name = "My Fav Track4"},}, Type = "Slow_Express"},
                 };
 
                 return allStations;

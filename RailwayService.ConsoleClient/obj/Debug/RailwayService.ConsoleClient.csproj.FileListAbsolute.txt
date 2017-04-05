@@ -9,3 +9,14 @@ C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Co
 C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\RailwayService.ConsoleClient\obj\Debug\RailwayService.ConsoleClient.csprojResolveAssemblyReference.cache
 C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\RailwayService.ConsoleClient\obj\Debug\RailwayService.ConsoleClient.exe
 C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\RailwayService.ConsoleClient\obj\Debug\RailwayService.ConsoleClient.pdb
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\RailwayService.ConsoleClient\bin\Debug\RailwayService.ConsoleClient.exe.config
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\RailwayService.ConsoleClient\bin\Debug\RailwayService.ConsoleClient.exe
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\RailwayService.ConsoleClient\bin\Debug\RailwayService.ConsoleClient.pdb
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\RailwayService.ConsoleClient\bin\Debug\ServerWCF.dll
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\RailwayService.ConsoleClient\bin\Debug\EntityFramework.dll
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\RailwayService.ConsoleClient\bin\Debug\ServerWCF.pdb
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\RailwayService.ConsoleClient\bin\Debug\ServerWCF.dll.config
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\RailwayService.ConsoleClient\bin\Debug\EntityFramework.xml
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\RailwayService.ConsoleClient\obj\Debug\RailwayService.ConsoleClient.csprojResolveAssemblyReference.cache
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\RailwayService.ConsoleClient\obj\Debug\RailwayService.ConsoleClient.exe
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\RailwayService.ConsoleClient\obj\Debug\RailwayService.ConsoleClient.pdb

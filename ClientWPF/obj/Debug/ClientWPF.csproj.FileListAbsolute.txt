@@ -105,3 +105,23 @@ C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Co
 C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\ClientWPF.csproj.GenerateResource.Cache
 C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\ClientWPF.exe
 C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\ClientWPF.pdb
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientWPF\bin\Debug\ClientWPF.exe.config
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientWPF\bin\Debug\ClientWPF.exe
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientWPF\bin\Debug\ClientWPF.pdb
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientWPF\obj\Debug\ClientWPF.csprojResolveAssemblyReference.cache
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientWPF\obj\Debug\LoginWindow.g.cs
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientWPF\obj\Debug\NavAdmin.g.cs
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientWPF\obj\Debug\NavPasager.g.cs
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientWPF\obj\Debug\SignUpWindow.g.cs
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientWPF\obj\Debug\App.g.cs
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.cache
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.lref
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientWPF\obj\Debug\LoginWindow.baml
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientWPF\obj\Debug\NavAdmin.baml
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientWPF\obj\Debug\NavPasager.baml
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientWPF\obj\Debug\SignUpWindow.baml
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientWPF\obj\Debug\ClientWPF.g.resources
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientWPF\obj\Debug\ClientWPF.Properties.Resources.resources
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientWPF\obj\Debug\ClientWPF.csproj.GenerateResource.Cache
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientWPF\obj\Debug\ClientWPF.exe
+C:\Users\Developer\Downloads\RailwaySystemBeta---Copy-master (2)\RailwaySystemBeta---Copy-master\ClientWPF\obj\Debug\ClientWPF.pdb
