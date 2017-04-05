@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="RailwaySystemModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="RailwaySystemModelContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Trains" EntityType="RailwaySystemModel.Train" />
+    <EntitySet Name="Stations" EntityType="RailwaySystemModel.Station" />
+    <EntitySet Name="Tracks" EntityType="RailwaySystemModel.Track" />
+    <EntitySet Name="Users" EntityType="RailwaySystemModel.User" />
+    <EntitySet Name="Bookings" EntityType="RailwaySystemModel.Booking" />
+    <AssociationSet Name="TrainTrack" Association="RailwaySystemModel.TrainTrack">
+      <End Role="Train" EntitySet="Trains" />
+      <End Role="Track" EntitySet="Tracks" />
+    </AssociationSet>
+    <AssociationSet Name="TrackStation" Association="RailwaySystemModel.TrackStation">
+      <End Role="Track" EntitySet="Tracks" />
+      <End Role="Station" EntitySet="Stations" />
+    </AssociationSet>
+    <AssociationSet Name="PassengerBooking" Association="RailwaySystemModel.PassengerBooking">
+      <End Role="Passenger" EntitySet="Users" />
+      <End Role="Booking" EntitySet="Bookings" />
+    </AssociationSet>
+    <AssociationSet Name="TrackBooking" Association="RailwaySystemModel.TrackBooking">
+      <End Role="Track" EntitySet="Tracks" />
+      <End Role="Booking" EntitySet="Bookings" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Train">
+    <Key>
+      <PropertyRef Name="TrainId" />
+    </Key>
+    <Property Name="TrainId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Model" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Type" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Capacity" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Tracks" Relationship="RailwaySystemModel.TrainTrack" FromRole="Train" ToRole="Track" />
+  </EntityType>
+  <EntityType Name="Station">
+    <Key>
+      <PropertyRef Name="StationId" />
+    </Key>
+    <Property Name="StationId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="City" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Type" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Tracks" Relationship="RailwaySystemModel.TrackStation" FromRole="Station" ToRole="Track" />
+  </EntityType>
+  <EntityType Name="Passenger" BaseType="RailwaySystemModel.User">
+    <Property Name="PassengerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Bookings" Relationship="RailwaySystemModel.PassengerBooking" FromRole="Passenger" ToRole="Booking" />
+  </EntityType>
+  <EntityType Name="Track">
+    <Key>
+      <PropertyRef Name="TrackId" />
+    </Key>
+    <Property Name="TrackId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FromStation" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ToStation" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="TimeToLeave" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="TimeToArrive" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Price" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Trains" Relationship="RailwaySystemModel.TrainTrack" FromRole="Track" ToRole="Train" />
+    <NavigationProperty Name="Stations" Relationship="RailwaySystemModel.TrackStation" FromRole="Track" ToRole="Station" />
+    <NavigationProperty Name="Bookings" Relationship="RailwaySystemModel.TrackBooking" FromRole="Track" ToRole="Booking" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="LastName" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Username" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Age" Type="Int32" Nullable="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Admin" BaseType="RailwaySystemModel.User">
+    <Property Name="AdminId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="Booking">
+    <Key>
+      <PropertyRef Name="BookingId" />
+    </Key>
+    <Property Name="BookingId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Time" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="PassengerUserId" Type="Int32" Nullable="false" />
+    <Property Name="Number" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="TrackTrackId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Passenger" Relationship="RailwaySystemModel.PassengerBooking" FromRole="Booking" ToRole="Passenger" />
+    <NavigationProperty Name="Track" Relationship="RailwaySystemModel.TrackBooking" FromRole="Booking" ToRole="Track" />
+    <Property Name="Price" Type="String" Nullable="false" />
+  </EntityType>
+  <Association Name="TrainTrack">
+    <End Type="RailwaySystemModel.Train" Role="Train" Multiplicity="*" />
+    <End Type="RailwaySystemModel.Track" Role="Track" Multiplicity="*" />
+  </Association>
+  <Association Name="TrackStation">
+    <End Type="RailwaySystemModel.Track" Role="Track" Multiplicity="*" />
+    <End Type="RailwaySystemModel.Station" Role="Station" Multiplicity="*" />
+  </Association>
+  <Association Name="PassengerBooking">
+    <End Type="RailwaySystemModel.Passenger" Role="Passenger" Multiplicity="1" />
+    <End Type="RailwaySystemModel.Booking" Role="Booking" Multiplicity="*" />
+  </Association>
+  <Association Name="TrackBooking">
+    <End Type="RailwaySystemModel.Track" Role="Track" Multiplicity="1" />
+    <End Type="RailwaySystemModel.Booking" Role="Booking" Multiplicity="*" />
+  </Association>
+</Schema>

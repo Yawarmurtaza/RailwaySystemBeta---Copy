@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RailwaySystemModelStoreContainer" CdmEntityContainer="RailwaySystemModelContainer">
+    <EntitySetMapping Name="Trains">
+      <EntityTypeMapping TypeName="IsTypeOf(RailwaySystemModel.Train)">
+        <MappingFragment StoreEntitySet="Trains">
+          <ScalarProperty Name="TrainId" ColumnName="TrainId" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Capacity" ColumnName="Capacity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stations">
+      <EntityTypeMapping TypeName="IsTypeOf(RailwaySystemModel.Station)">
+        <MappingFragment StoreEntitySet="Stations">
+          <ScalarProperty Name="StationId" ColumnName="StationId" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tracks">
+      <EntityTypeMapping TypeName="IsTypeOf(RailwaySystemModel.Track)">
+        <MappingFragment StoreEntitySet="Tracks">
+          <ScalarProperty Name="TrackId" ColumnName="TrackId" />
+          <ScalarProperty Name="FromStation" ColumnName="FromStation" />
+          <ScalarProperty Name="ToStation" ColumnName="ToStation" />
+          <ScalarProperty Name="TimeToLeave" ColumnName="TimeToLeave" />
+          <ScalarProperty Name="TimeToArrive" ColumnName="TimeToArrive" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="IsTypeOf(RailwaySystemModel.User)">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(RailwaySystemModel.Passenger)">
+        <MappingFragment StoreEntitySet="Users_Passenger">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="PassengerId" ColumnName="PassengerId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(RailwaySystemModel.Admin)">
+        <MappingFragment StoreEntitySet="Users_Admin">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="AdminId" ColumnName="AdminId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bookings">
+      <EntityTypeMapping TypeName="IsTypeOf(RailwaySystemModel.Booking)">
+        <MappingFragment StoreEntitySet="Bookings">
+          <ScalarProperty Name="BookingId" ColumnName="BookingId" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="PassengerUserId" ColumnName="PassengerUserId" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="TrackTrackId" ColumnName="TrackTrackId" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="TrainTrack" TypeName="RailwaySystemModel.TrainTrack" StoreEntitySet="TrainTrack">
+      <EndProperty Name="Train">
+        <ScalarProperty Name="TrainId" ColumnName="Trains_TrainId" />
+      </EndProperty>
+      <EndProperty Name="Track">
+        <ScalarProperty Name="TrackId" ColumnName="Tracks_TrackId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="TrackStation" TypeName="RailwaySystemModel.TrackStation" StoreEntitySet="TrackStation">
+      <EndProperty Name="Track">
+        <ScalarProperty Name="TrackId" ColumnName="Tracks_TrackId" />
+      </EndProperty>
+      <EndProperty Name="Station">
+        <ScalarProperty Name="StationId" ColumnName="Stations_StationId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="PassengerBooking" TypeName="RailwaySystemModel.PassengerBooking" StoreEntitySet="Bookings">
+      <EndProperty Name="Passenger">
+        <ScalarProperty Name="UserId" ColumnName="Passenger_UserId" />
+      </EndProperty>
+      <EndProperty Name="Booking">
+        <ScalarProperty Name="BookingId" ColumnName="BookingId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="TrackBooking" TypeName="RailwaySystemModel.TrackBooking" StoreEntitySet="Bookings">
+      <EndProperty Name="Track">
+        <ScalarProperty Name="TrackId" ColumnName="Track_TrackId" />
+      </EndProperty>
+      <EndProperty Name="Booking">
+        <ScalarProperty Name="BookingId" ColumnName="BookingId" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

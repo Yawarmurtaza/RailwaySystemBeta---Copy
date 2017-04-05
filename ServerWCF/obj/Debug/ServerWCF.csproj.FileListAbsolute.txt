@@ -1,0 +1,49 @@
+C:\Users\Daniel\Desktop\RailwaySystem\ServerWCF\bin\Debug\ServerWCF.dll.config
+C:\Users\Daniel\Desktop\RailwaySystem\ServerWCF\bin\Debug\ServerWCF.dll
+C:\Users\Daniel\Desktop\RailwaySystem\ServerWCF\bin\Debug\ServerWCF.pdb
+C:\Users\Daniel\Desktop\RailwaySystem\ServerWCF\bin\Debug\EntityFramework.dll
+C:\Users\Daniel\Desktop\RailwaySystem\ServerWCF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Daniel\Desktop\RailwaySystem\ServerWCF\bin\Debug\EntityFramework.xml
+C:\Users\Daniel\Desktop\RailwaySystem\ServerWCF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Daniel\Desktop\RailwaySystem\ServerWCF\obj\Debug\ServerWCF.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Desktop\RailwaySystem\ServerWCF\obj\Debug\ServerWCF.dll
+C:\Users\Daniel\Desktop\RailwaySystem\ServerWCF\obj\Debug\ServerWCF.pdb
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ServerWCF\bin\Debug\ServerWCF.dll.config
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ServerWCF\bin\Debug\ServerWCF.dll
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ServerWCF\bin\Debug\ServerWCF.pdb
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ServerWCF\bin\Debug\EntityFramework.dll
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ServerWCF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ServerWCF\bin\Debug\EntityFramework.xml
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ServerWCF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ServerWCF\obj\Debug\ServerWCF.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ServerWCF\obj\Debug\ServerWCF.dll
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ServerWCF\obj\Debug\ServerWCF.pdb
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ServerWCF\bin\Debug\ServerWCF.dll.config
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ServerWCF\bin\Debug\ServerWCF.dll
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ServerWCF\bin\Debug\ServerWCF.pdb
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ServerWCF\bin\Debug\EntityFramework.dll
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ServerWCF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ServerWCF\bin\Debug\EntityFramework.xml
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ServerWCF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ServerWCF\obj\Debug\ServerWCF.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ServerWCF\obj\Debug\ServerWCF.dll
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ServerWCF\obj\Debug\ServerWCF.pdb
+C:\Users\Daniel\Desktop\RailwaySystemBeta - Copy\ServerWCF\bin\Debug\ServerWCF.dll.config
+C:\Users\Daniel\Desktop\RailwaySystemBeta - Copy\ServerWCF\bin\Debug\ServerWCF.dll
+C:\Users\Daniel\Desktop\RailwaySystemBeta - Copy\ServerWCF\bin\Debug\ServerWCF.pdb
+C:\Users\Daniel\Desktop\RailwaySystemBeta - Copy\ServerWCF\bin\Debug\EntityFramework.dll
+C:\Users\Daniel\Desktop\RailwaySystemBeta - Copy\ServerWCF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Daniel\Desktop\RailwaySystemBeta - Copy\ServerWCF\bin\Debug\EntityFramework.xml
+C:\Users\Daniel\Desktop\RailwaySystemBeta - Copy\ServerWCF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Daniel\Desktop\RailwaySystemBeta - Copy\ServerWCF\obj\Debug\ServerWCF.dll
+C:\Users\Daniel\Desktop\RailwaySystemBeta - Copy\ServerWCF\obj\Debug\ServerWCF.pdb
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ServerWCF\bin\Debug\ServerWCF.dll.config
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ServerWCF\bin\Debug\ServerWCF.dll
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ServerWCF\bin\Debug\ServerWCF.pdb
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ServerWCF\bin\Debug\EntityFramework.dll
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ServerWCF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ServerWCF\bin\Debug\EntityFramework.xml
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ServerWCF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ServerWCF\obj\Debug\ServerWCF.csprojResolveAssemblyReference.cache
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ServerWCF\obj\Debug\ServerWCF.dll
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ServerWCF\obj\Debug\ServerWCF.pdb

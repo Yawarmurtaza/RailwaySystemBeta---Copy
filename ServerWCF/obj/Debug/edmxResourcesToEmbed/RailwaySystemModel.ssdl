@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RailwaySystemModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="RailwaySystemModelStoreContainer">
+    <EntitySet Name="Trains" EntityType="RailwaySystemModel.Store.Trains" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Stations" EntityType="RailwaySystemModel.Store.Stations" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Tracks" EntityType="RailwaySystemModel.Store.Tracks" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Users" EntityType="RailwaySystemModel.Store.Users" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Bookings" EntityType="RailwaySystemModel.Store.Bookings" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Users_Passenger" EntityType="RailwaySystemModel.Store.Users_Passenger" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Users_Admin" EntityType="RailwaySystemModel.Store.Users_Admin" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TrainTrack" EntityType="RailwaySystemModel.Store.TrainTrack" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TrackStation" EntityType="RailwaySystemModel.Store.TrackStation" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_TrainTrack_Train" Association="RailwaySystemModel.Store.FK_TrainTrack_Train">
+      <End Role="Train" EntitySet="Trains" />
+      <End Role="TrainTrack" EntitySet="TrainTrack" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TrainTrack_Track" Association="RailwaySystemModel.Store.FK_TrainTrack_Track">
+      <End Role="Track" EntitySet="Tracks" />
+      <End Role="TrainTrack" EntitySet="TrainTrack" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TrackStation_Track" Association="RailwaySystemModel.Store.FK_TrackStation_Track">
+      <End Role="Track" EntitySet="Tracks" />
+      <End Role="TrackStation" EntitySet="TrackStation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TrackStation_Station" Association="RailwaySystemModel.Store.FK_TrackStation_Station">
+      <End Role="Station" EntitySet="Stations" />
+      <End Role="TrackStation" EntitySet="TrackStation" />
+    </AssociationSet>
+    <AssociationSet Name="PassengerBooking" Association="RailwaySystemModel.Store.PassengerBooking">
+      <End Role="Passenger" EntitySet="Users_Passenger" />
+      <End Role="Booking" EntitySet="Bookings" />
+    </AssociationSet>
+    <AssociationSet Name="TrackBooking" Association="RailwaySystemModel.Store.TrackBooking">
+      <End Role="Track" EntitySet="Tracks" />
+      <End Role="Booking" EntitySet="Bookings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Passenger_inherits_User" Association="RailwaySystemModel.Store.FK_Passenger_inherits_User">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Passenger" EntitySet="Users_Passenger" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Admin_inherits_User" Association="RailwaySystemModel.Store.FK_Admin_inherits_User">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Admin" EntitySet="Users_Admin" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Trains">
+    <Key>
+      <PropertyRef Name="TrainId" />
+    </Key>
+    <Property Name="TrainId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Model" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Type" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Capacity" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Stations">
+    <Key>
+      <PropertyRef Name="StationId" />
+    </Key>
+    <Property Name="StationId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="City" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Type" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Tracks">
+    <Key>
+      <PropertyRef Name="TrackId" />
+    </Key>
+    <Property Name="TrackId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FromStation" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ToStation" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="TimeToLeave" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="TimeToArrive" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Price" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="LastName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Username" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Age" Type="int" Nullable="false" />
+    <Property Name="Password" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Bookings">
+    <Key>
+      <PropertyRef Name="BookingId" />
+    </Key>
+    <Property Name="BookingId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Time" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="PassengerUserId" Type="int" Nullable="false" />
+    <Property Name="Number" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="TrackTrackId" Type="int" Nullable="false" />
+    <Property Name="Price" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Passenger_UserId" Type="int" Nullable="false" />
+    <Property Name="Track_TrackId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users_Passenger">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="PassengerId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users_Admin">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="AdminId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TrainTrack">
+    <Key>
+      <PropertyRef Name="Trains_TrainId" />
+      <PropertyRef Name="Tracks_TrackId" />
+    </Key>
+    <Property Name="Trains_TrainId" Type="int" Nullable="false" />
+    <Property Name="Tracks_TrackId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TrackStation">
+    <Key>
+      <PropertyRef Name="Tracks_TrackId" />
+      <PropertyRef Name="Stations_StationId" />
+    </Key>
+    <Property Name="Tracks_TrackId" Type="int" Nullable="false" />
+    <Property Name="Stations_StationId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="PassengerBooking">
+    <End Role="Passenger" Type="RailwaySystemModel.Store.Users_Passenger" Multiplicity="1" />
+    <End Role="Booking" Type="RailwaySystemModel.Store.Bookings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Passenger">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="Passenger_UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TrackBooking">
+    <End Role="Track" Type="RailwaySystemModel.Store.Tracks" Multiplicity="1" />
+    <End Role="Booking" Type="RailwaySystemModel.Store.Bookings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Track">
+        <PropertyRef Name="TrackId" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="Track_TrackId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TrainTrack_Train">
+    <End Role="Train" Type="RailwaySystemModel.Store.Trains" Multiplicity="1" />
+    <End Role="TrainTrack" Type="RailwaySystemModel.Store.TrainTrack" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Train">
+        <PropertyRef Name="TrainId" />
+      </Principal>
+      <Dependent Role="TrainTrack">
+        <PropertyRef Name="Trains_TrainId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TrainTrack_Track">
+    <End Role="TrainTrack" Type="RailwaySystemModel.Store.TrainTrack" Multiplicity="*" />
+    <End Role="Track" Type="RailwaySystemModel.Store.Tracks" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Track">
+        <PropertyRef Name="TrackId" />
+      </Principal>
+      <Dependent Role="TrainTrack">
+        <PropertyRef Name="Tracks_TrackId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TrackStation_Track">
+    <End Role="Track" Type="RailwaySystemModel.Store.Tracks" Multiplicity="1" />
+    <End Role="TrackStation" Type="RailwaySystemModel.Store.TrackStation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Track">
+        <PropertyRef Name="TrackId" />
+      </Principal>
+      <Dependent Role="TrackStation">
+        <PropertyRef Name="Tracks_TrackId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TrackStation_Station">
+    <End Role="TrackStation" Type="RailwaySystemModel.Store.TrackStation" Multiplicity="*" />
+    <End Role="Station" Type="RailwaySystemModel.Store.Stations" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Station">
+        <PropertyRef Name="StationId" />
+      </Principal>
+      <Dependent Role="TrackStation">
+        <PropertyRef Name="Stations_StationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Passenger_inherits_User">
+    <End Role="User" Type="RailwaySystemModel.Store.Users" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Passenger" Type="RailwaySystemModel.Store.Users_Passenger" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Passenger">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Admin_inherits_User">
+    <End Role="User" Type="RailwaySystemModel.Store.Users" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Admin" Type="RailwaySystemModel.Store.Users_Admin" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Admin">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

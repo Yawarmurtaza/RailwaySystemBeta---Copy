@@ -1,0 +1,11 @@
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\RailwayServiceConsoleHost\bin\Debug\RailwayServiceConsoleHost.exe.config
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\RailwayServiceConsoleHost\bin\Debug\RailwayServiceConsoleHost.exe
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\RailwayServiceConsoleHost\bin\Debug\RailwayServiceConsoleHost.pdb
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\RailwayServiceConsoleHost\bin\Debug\ServerWCF.dll
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\RailwayServiceConsoleHost\bin\Debug\EntityFramework.dll
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\RailwayServiceConsoleHost\bin\Debug\ServerWCF.pdb
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\RailwayServiceConsoleHost\bin\Debug\ServerWCF.dll.config
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\RailwayServiceConsoleHost\bin\Debug\EntityFramework.xml
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\RailwayServiceConsoleHost\obj\Debug\RailwayServiceConsoleHost.csprojResolveAssemblyReference.cache
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\RailwayServiceConsoleHost\obj\Debug\RailwayServiceConsoleHost.exe
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\RailwayServiceConsoleHost\obj\Debug\RailwayServiceConsoleHost.pdb

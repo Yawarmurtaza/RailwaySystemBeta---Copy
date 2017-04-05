@@ -1,0 +1,107 @@
+C:\Users\Daniel\Desktop\RailwaySystem\ClientWPF\bin\Debug\ClientWPF.exe.config
+C:\Users\Daniel\Desktop\RailwaySystem\ClientWPF\obj\Debug\ClientWPF.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Desktop\RailwaySystem\ClientWPF\obj\Debug\LoginWindow.g.cs
+C:\Users\Daniel\Desktop\RailwaySystem\ClientWPF\obj\Debug\NavAdmin.g.cs
+C:\Users\Daniel\Desktop\RailwaySystem\ClientWPF\obj\Debug\NavPasager.g.cs
+C:\Users\Daniel\Desktop\RailwaySystem\ClientWPF\obj\Debug\SignUpWindow.g.cs
+C:\Users\Daniel\Desktop\RailwaySystem\ClientWPF\obj\Debug\App.g.cs
+C:\Users\Daniel\Desktop\RailwaySystem\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.cache
+C:\Users\Daniel\Desktop\RailwaySystem\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.lref
+C:\Users\Daniel\Desktop\RailwaySystem\ClientWPF\bin\Debug\ClientWPF.exe
+C:\Users\Daniel\Desktop\RailwaySystem\ClientWPF\bin\Debug\ClientWPF.pdb
+C:\Users\Daniel\Desktop\RailwaySystem\ClientWPF\bin\Debug\ServerWCF.dll
+C:\Users\Daniel\Desktop\RailwaySystem\ClientWPF\bin\Debug\EntityFramework.dll
+C:\Users\Daniel\Desktop\RailwaySystem\ClientWPF\bin\Debug\ServerWCF.pdb
+C:\Users\Daniel\Desktop\RailwaySystem\ClientWPF\bin\Debug\EntityFramework.xml
+C:\Users\Daniel\Desktop\RailwaySystem\ClientWPF\obj\Debug\LoginWindow.baml
+C:\Users\Daniel\Desktop\RailwaySystem\ClientWPF\obj\Debug\NavAdmin.baml
+C:\Users\Daniel\Desktop\RailwaySystem\ClientWPF\obj\Debug\NavPasager.baml
+C:\Users\Daniel\Desktop\RailwaySystem\ClientWPF\obj\Debug\SignUpWindow.baml
+C:\Users\Daniel\Desktop\RailwaySystem\ClientWPF\obj\Debug\ClientWPF.g.resources
+C:\Users\Daniel\Desktop\RailwaySystem\ClientWPF\obj\Debug\ClientWPF.Properties.Resources.resources
+C:\Users\Daniel\Desktop\RailwaySystem\ClientWPF\obj\Debug\ClientWPF.csproj.GenerateResource.Cache
+C:\Users\Daniel\Desktop\RailwaySystem\ClientWPF\obj\Debug\ClientWPF.exe
+C:\Users\Daniel\Desktop\RailwaySystem\ClientWPF\obj\Debug\ClientWPF.pdb
+D:\RailwaySystem\ClientWPF\bin\Debug\ClientWPF.exe.config
+D:\RailwaySystem\ClientWPF\obj\Debug\ClientWPF.exe
+D:\RailwaySystem\ClientWPF\obj\Debug\ClientWPF.pdb
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ClientWPF\bin\Debug\ClientWPF.exe.config
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ClientWPF\obj\Debug\ClientWPF.exe
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ClientWPF\obj\Debug\ClientWPF.pdb
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ClientWPF\obj\Debug\ClientWPF.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ClientWPF\obj\Debug\LoginWindow.g.cs
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ClientWPF\obj\Debug\NavAdmin.g.cs
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ClientWPF\obj\Debug\NavPasager.g.cs
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ClientWPF\obj\Debug\SignUpWindow.g.cs
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ClientWPF\obj\Debug\App.g.cs
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.cache
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.lref
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ClientWPF\bin\Debug\ClientWPF.exe
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ClientWPF\bin\Debug\ClientWPF.pdb
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ClientWPF\obj\Debug\LoginWindow.baml
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ClientWPF\obj\Debug\NavAdmin.baml
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ClientWPF\obj\Debug\NavPasager.baml
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ClientWPF\obj\Debug\SignUpWindow.baml
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ClientWPF\obj\Debug\ClientWPF.g.resources
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ClientWPF\obj\Debug\ClientWPF.Properties.Resources.resources
+C:\Users\Daniel\Desktop\RailwaySystemBackup\ClientWPF\obj\Debug\ClientWPF.csproj.GenerateResource.Cache
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ClientWPF\bin\Debug\ClientWPF.exe.config
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ClientWPF\obj\Debug\ClientWPF.exe
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ClientWPF\obj\Debug\ClientWPF.pdb
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ClientWPF\bin\Debug\ClientWPF.exe
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ClientWPF\bin\Debug\ClientWPF.pdb
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ClientWPF\obj\Debug\ClientWPF.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ClientWPF\obj\Debug\LoginWindow.g.cs
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ClientWPF\obj\Debug\NavAdmin.g.cs
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ClientWPF\obj\Debug\NavPasager.g.cs
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ClientWPF\obj\Debug\SignUpWindow.g.cs
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ClientWPF\obj\Debug\App.g.cs
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.cache
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.lref
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ClientWPF\obj\Debug\LoginWindow.baml
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ClientWPF\obj\Debug\NavAdmin.baml
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ClientWPF\obj\Debug\NavPasager.baml
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ClientWPF\obj\Debug\SignUpWindow.baml
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ClientWPF\obj\Debug\ClientWPF.g.resources
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ClientWPF\obj\Debug\ClientWPF.Properties.Resources.resources
+C:\Users\Daniel\Desktop\RailwaySystemBackup - Copy\ClientWPF\obj\Debug\ClientWPF.csproj.GenerateResource.Cache
+C:\Users\Daniel\Desktop\RailwaySystemBeta - Copy\ClientWPF\bin\Debug\ClientWPF.exe.config
+C:\Users\Daniel\Desktop\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\ClientWPF.exe
+C:\Users\Daniel\Desktop\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\ClientWPF.pdb
+C:\Users\Daniel\Desktop\RailwaySystemBeta - Copy\ClientWPF\bin\Debug\ClientWPF.exe
+C:\Users\Daniel\Desktop\RailwaySystemBeta - Copy\ClientWPF\bin\Debug\ClientWPF.pdb
+C:\Users\Daniel\Desktop\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\ClientWPF.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Desktop\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\LoginWindow.g.cs
+C:\Users\Daniel\Desktop\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\NavAdmin.g.cs
+C:\Users\Daniel\Desktop\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\NavPasager.g.cs
+C:\Users\Daniel\Desktop\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\SignUpWindow.g.cs
+C:\Users\Daniel\Desktop\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\App.g.cs
+C:\Users\Daniel\Desktop\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.cache
+C:\Users\Daniel\Desktop\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.lref
+C:\Users\Daniel\Desktop\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\LoginWindow.baml
+C:\Users\Daniel\Desktop\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\NavAdmin.baml
+C:\Users\Daniel\Desktop\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\NavPasager.baml
+C:\Users\Daniel\Desktop\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\SignUpWindow.baml
+C:\Users\Daniel\Desktop\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\ClientWPF.g.resources
+C:\Users\Daniel\Desktop\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\ClientWPF.Properties.Resources.resources
+C:\Users\Daniel\Desktop\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\ClientWPF.csproj.GenerateResource.Cache
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ClientWPF\bin\Debug\ClientWPF.exe.config
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ClientWPF\bin\Debug\ClientWPF.exe
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ClientWPF\bin\Debug\ClientWPF.pdb
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\ClientWPF.csprojResolveAssemblyReference.cache
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\LoginWindow.g.cs
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\NavAdmin.g.cs
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\NavPasager.g.cs
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\SignUpWindow.g.cs
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\App.g.cs
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.cache
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.lref
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\LoginWindow.baml
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\NavAdmin.baml
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\NavPasager.baml
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\SignUpWindow.baml
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\ClientWPF.g.resources
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\ClientWPF.Properties.Resources.resources
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\ClientWPF.csproj.GenerateResource.Cache
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\ClientWPF.exe
+C:\Users\Developer\Downloads\RailwaySystemBeta - Copy (1)\RailwaySystemBeta - Copy\ClientWPF\obj\Debug\ClientWPF.pdb
